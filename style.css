@@ -1,0 +1,362 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #000033 url('/siteimg/bk_body.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px
+}
+p {
+	margin: 3px 10px 0 0;
+	padding: 0;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+@font-face {
+    font-family: 'Supercell-magic-webfont';
+    src: url(/Supercell-magic-webfont.ttf);
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Supercell-magic-webfont;
+	font-weight: bold;
+	padding-bottom: 0px;
+	margin: 5px 10px 0 0;
+	line-height: 100%;
+	font-style: italic;
+	text-align: center;
+}
+h1 {
+	font-size: 300%;
+	font-weight: normal;
+	color: #D9E4EF;
+}
+h2 {
+	font-size: 250%;
+	color: #D9E4EF;
+}
+h3 {
+	font-size: 200%;
+	color: #D9E4EF;
+}
+h4 {
+	font-size: 175%;
+	font-weight: bold;
+	color: #D9E4EF;
+	font-style: italic;
+}
+h5 {
+	font-size: 150%;
+	color: #D9E4EF;
+}
+h6 {
+	font-size: 11px;
+	font-weight: normal;
+	margin: 2px 0 0 0;
+	padding: 0;
+	color: #D9E4EF;
+}
+.style1 {
+        color: #FFFFFF
+}
+
+#wrapper {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    #wrapper { width: 100%; }
+}
+#head {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    #head { width: 100%; }
+}
+.headinside {
+	width: auto;
+	height: auto;
+	margin: 30px auto;
+	padding: 20px 0;
+	background: #4D4B4C url('siteimg/maininnerbg.jpg') repeat-x;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+        border: 5px solid #FD0100;
+    text-align: center;
+    color: #D9E4EF;
+    font-size: 18pt;
+	font-style: italic;
+}
+#head a {
+	color: #D9E4EF;
+	text-decoration: none;
+}
+#bodyinner {
+	width: auto;
+	height: auto;
+	margin: 0 7px;
+	padding: 10px 0;
+	background: #4D4B4C url('siteimg/maininnerbg.jpg') repeat-x;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+        border: 5px solid #FD0100;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.main {
+	width: auto;
+	height: auto;
+	margin: 0 10px;
+	padding: 0;
+}
+.main a{
+	color: #D9E4EF;
+}
+#sponsors {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    #sponsors { width: 100%; }
+}
+#sponsorsinner {
+	width: auto;
+	height: auto;
+	margin: 0 7px;
+	padding: 10px 0;
+	background: #4D4B4C url('siteimg/maininnerbg.jpg') repeat-x;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+        border: 5px solid #FD0100;
+	text-align: center;
+}
+#footer {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    #footer { width: 100%; }
+}
+#footerinner {
+	width: auto;
+	height: auto;
+	margin: 30px 7px;
+	padding: 10px 0;
+	background: #4D4B4C url('siteimg/maininnerbg.jpg') repeat-x;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+        border: 5px solid #FD0100;
+	text-align: center;
+	font-size: 12px;
+	color: #ffffff;
+}
+#footerinner a{
+	color: #D9E4EF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Menu Styles */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@charset "UTF-8";
+/* Base Styles */
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: Supercell-magic-webfont;
+    letter-spacing: 2px;
+  font-size: 14px;
+  position: relative;
+}
+#cssmenu a {
+  line-height: 1.5;
+}
+#cssmenu {
+  width: 100%;
+  background: #000033;
+  position: fixed;
+}
+#cssmenu > ul {
+  border: 1px solid #000000;
+  -moz-box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.2);
+  background: #565656;
+  background: -moz-linear-gradient(#565656 0%, #323232 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #565656), color-stop(100%, #323232));
+  background: -webkit-linear-gradient(#565656 0%, #323232 100%);
+  background: linear-gradient(#565656 0%, #323232 100%);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#cssmenu > ul:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+@media all and (max-width: 480px) {
+  #cssmenu > ul {
+    max-height: 32px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+  }
+  #cssmenu.expand ul {
+    max-height: 900px;
+  }
+}
+#cssmenu > ul > li {
+  border-right: 1px solid #000000;
+  -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2);
+  float: left;
+}
+#cssmenu > ul > li.mobile {
+  display: none;
+}
+@media all and (max-width: 480px) {
+  #cssmenu > ul > li {
+    border-right: 0 none;
+    -moz-box-shadow: 0 0 0 transparent;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    display: block;
+    float: none;
+  }
+  #cssmenu > ul > li.mobile {
+    display: block;
+  }
+  #cssmenu > ul > li.mobile i {
+    float: right;
+    font-style: normal;
+  }
+}
+#cssmenu > ul > li:last-child {
+  border-right: 0 none;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+#cssmenu > ul > li:last-child ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu > ul > li.mobile {
+  border-right: 0 none;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+}
+#cssmenu > ul > li > a {
+  margin: 0 0 2px 0;
+  font-size: 12px;
+  display: block;
+  color: #ffffff;
+  text-shadow: 0 1px 1px #000;
+}
+#cssmenu > ul > li > a > span {
+  display: block;
+  padding: 6px 10px;
+  font-weight: bold;
+}
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+  background: #444444;
+  background: -moz-linear-gradient(#444444 0%, #323232 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #444444), color-stop(100%, #323232));
+  background: -webkit-linear-gradient(#444444 0%, #323232 100%);
+  background: linear-gradient(#444444 0%, #323232 100%);
+}
+#cssmenu > ul > li.active {
+  border-bottom: none;
+}
+#cssmenu > ul > li.active > a {
+  color: #fff;
+  text-shadow: 0 1px 1px #000;
+}
+/* Sub menu */
+#cssmenu ul ul {
+  background: #f9f9f9;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  padding: 5px 12px;
+  display: none;
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 200px;
+  z-index: 1;
+}
+@media all and (max-width: 480px) {
+  #cssmenu ul ul {
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+}
+#cssmenu ul ul li {
+  padding: 3px 0;
+}
+#cssmenu ul ul a {
+  color: #444444;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+}
+#cssmenu ul ul a:hover {
+  color: #999999;
+}
