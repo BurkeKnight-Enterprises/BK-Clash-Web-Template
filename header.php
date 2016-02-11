@@ -58,7 +58,7 @@ top.location.href = document.location.href ;
 </div>
 <br /><br /><div id="head">
 <div class="headinside" align="center">
- <h2><a href="/index.php"><img src="/siteimg/banner.png" border="0" /></a></h2>
+ <h2><a href="/index.php"><img src="siteimg/banner.png" border="0" /></a></h2>
    </div>
 </div>
 

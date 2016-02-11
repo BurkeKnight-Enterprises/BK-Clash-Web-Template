@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #000033 url('/siteimg/bk_body.jpg') no-repeat fixed;
+	background: #000033 url('siteimg/bk_body.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,7 +17,7 @@ p {
 }
 @font-face {
     font-family: 'Supercell-magic-webfont';
-    src: url(/Supercell-magic-webfont.ttf);
+    src: url(Supercell-magic-webfont.ttf);
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Supercell-magic-webfont;
@@ -112,6 +112,10 @@ h6 {
 	margin: 0 7px;
 	padding: 10px 0;
 	background: #4D4B4C url('siteimg/maininnerbg.jpg') repeat-x;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
         -moz-border-radius:10px;
         -webkit-border-radius:10px;
         border-radius:10px;
