@@ -6,7 +6,7 @@ Designer: BurkeKnight<br />
 Date Designed: February 10, 2016<br />
 Template Type: HTML/PHP<br /><br />
 
-<a href="http://www.burkeknight.com/demos/bkdark/" target="_blank">Preview Template</a> - <a href="#">Download Template</a><br /><br />
+<a href="http://www.burkeknight.com/demos/bkdark/" target="_blank">Preview Template</a> - <a href="https://github.com/BurkeKnight-Enterprises/BK-Clash-Web-Template/releases/download/1.0/BK-Clash-Web-Template.zip">Download Template</a><br /><br />
 
 <div align="center"><img src="http://bkd.pw/bkt/BK_Clash_Template.jpg" /><br /><br />
 
