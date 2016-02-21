@@ -1,5 +1,6 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
+<meta name="viewport" content="width=device-width, user-scalable=no">
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <script src="script.js"></script>
 <script language="JavaScript" type="text/javascript">
